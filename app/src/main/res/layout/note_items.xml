@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:onClick="onClick"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleTextView"
+                android:text="@string/title"
+                android:paddingEnd="22sp"
+                android:textAllCaps="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:textSize="18sp"
+                android:maxLines="3"
+                android:textStyle="bold"
+
+                android:textColor="@color/aa"
+
+                />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/updateButton"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="34dp"
+                android:tint="@color/aa"
+                android:src="@drawable/edit_24"
+                tools:ignore="UseAppTint" />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/deleteButton"
+                android:layout_alignParentEnd="true"
+                android:tint="@color/aa"
+                android:src="@drawable/delete_24"
+                tools:ignore="UseAppTint" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_below="@+id/deleteButton"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:button="@drawable/selecter_wishlist" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/contentTextView"
+            android:layout_marginTop="2dp"
+            android:layout_alignWithParentIfMissing="true"
+            android:text="Content"
+            android:textStyle="italic"
+            android:maxLines="4"
+            android:textSize="16sp"
+            android:ems="15"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

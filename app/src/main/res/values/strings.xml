@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="fillout">Fillout Your Emotion With Writing a Note</string>
+    <string name="get_started">Get Started</string>
+    <string name="my_notes">My Notes</string>
+    <string name="search">Search</string>
+    <string name="new_note">New Note</string>
+
+    <string name="enter_the_title">Enter the Title</string>
+    <string name="enter_the_content">Enter the Content</string>
+    <string name="save">Save</string>
+    <string name="add_notes">Add Notes..</string>
+    <string name="title">Title</string>
+    <string name="update">Update</string>
+    <string name="update_notes">Update Notes...</string>
+    <string name="enter_the_descriptions">Enter the Descriptions</string>
+    <string name="open_nav">Open Navigation drawer</string>
+    <string name="close_nav">Close Navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="library_fragments">Library Fragments</string>
+
+    <array name="color">
+        <item></item>
+        <item>BLACK</item>
+        <item>RED</item>
+        <item>GREEN</item>
+        <item>BLUE</item>
+    </array>
+
+    <array name="size">
+        <item>Chose Size</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+    </array>
+</resources>
